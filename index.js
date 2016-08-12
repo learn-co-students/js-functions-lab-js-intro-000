@@ -4,10 +4,8 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  //if (name === name) {
   return(`Happy holidays, ${name}!`);
   var name = `you`;
- //}
 }
 
 function happyHolidayTo(holiday, name) {
