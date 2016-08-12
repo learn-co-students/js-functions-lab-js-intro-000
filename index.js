@@ -4,18 +4,20 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  return("Happy Holidays, ${name}!");
-  var name = "you";
+  //if (name === name) {
+  return(`Happy holidays, ${name}!`);
+  var name = `you`;
+ //}
 }
 
 function happyHolidayTo(holiday, name) {
-  return("Happy ${holiday}, ${name}!");
-  var holiday = "Independence Days";
-  var name = "David";
+  return(`Happy ${holiday}, ${name}!`);
+  var holiday = `Independence Days`;
+  var name = `David`;
 }
 
 function holidayCountdown(holiday, days) {
-  return("It's ${days} days until #{holiday}!");
-  var holiday = "Mother's Day";
-  var days = "20";
+  return(`It's ${days} days until ${holiday}!`);
+  var holiday = `Mother's Day`;
+  var days = `20`;
 }
