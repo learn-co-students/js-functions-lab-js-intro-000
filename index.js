@@ -3,14 +3,14 @@ function happyHolidays() {
   return `Happy holidays!`;
 }
 
-function happyHolidaysTo(Julien) {
-  return `Happy holidays, ${Julien}!`
+function happyHolidaysTo(name) {
+  return `Happy holidays, ${name}!`
 }
 
-function happyHolidayTo(Birthday, Julien) {
-  return `Happy ${Birthday}, ${Julien}!`
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
 }
 
-function holidayCountdown("Mother's Day", 20) {
-  return `It\'s ${20} until ${"Mother's Day"}!`
+function holidayCountdown(holiday, days) {
+  return `It's ${days} days until ${holiday}!`
 }
