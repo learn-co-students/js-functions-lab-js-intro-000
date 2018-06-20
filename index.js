@@ -6,17 +6,14 @@ function happyHolidaysTo (name) {
   return (`Happy holidays, ${name}!`);
 }
 
-  function happyHolidayTo (holiday, name){
-  
-    return ('Happy ${holiday}, ${name}!)'
-  
+  function happyHolidayTo (holiday, name) {
+    return `Happy ${holiday}, ${name}!`;
   }
+  function holidayCountdown (holiday, numberOfDaysTillHoliday) {
+    return `It's ${days} days until ${holiday}!`;
+  }
+
   
-  happyHolidayTo("Christmas", "Sam")
-  function holidayCountdown (Thanksgiving, numberOfDaysUntilHoliday){
-    var Thanksgiving, 125
-    return (It\'s ${125 days} until ${Thanksgiving}!');
-  }
-  }
+  
   
 
