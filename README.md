@@ -18,7 +18,7 @@ spoken greetings, for song lyrics, etc...
 
 ## Template Literals
 
-There are two ways main ways to include variables inside a string. Say we had a variable named `date` that we assign to a value:
+There are two main ways to include variables inside a string. Say we had a variable named `date` that we assign to a value:
 
 ```js
 var date = "July 3rd"
