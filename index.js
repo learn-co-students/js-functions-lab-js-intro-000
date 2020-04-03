@@ -1,16 +1,17 @@
 function happyHolidays() {
-  return "Happy holidays!"
-console.log(happyHolidays())
+  var string;
+  string = "Happy holidays!"
+  return string
 }
 
-function happyHolidaysTo(Jessie) {
-  return `Happy holidays, ${Jessie}!`
+function happyHolidaysTo(name = Jessie) {
+  return `Happy holidays, ${name}!`;
 }
 
-function happyCustomHolidayTo(Holidays, Jessie) {
-  return `Happy ${Holidays}, ${Jessie}!`
+function happyCustomHolidayTo(holiday = Independence, name = Jessie) {
+  return `Happy ${holiday}, ${name}!`;
 }
 
-function holidayCountdown(Christmas, 267) {
-  return `It's ${267} days until ${Christmas}!`
+function holidayCountdown(holiday = Independence, days = 45) {
+  return `It's ${days} days until ${holiday}!`;
 }
