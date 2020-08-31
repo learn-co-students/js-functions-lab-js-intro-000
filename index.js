@@ -8,5 +8,6 @@ function happyHolidaysTo(Rin){
 }
 
 function happyCustomHolidayTo (Independence,you) {
-  return 'Happy ${holliday}, ${name}!'
+  console.log ('Happy ${holiday}, ${name}');
+  return 'Happy Independence day, you!'
 }
