@@ -3,11 +3,14 @@ function happyHolidays (){
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(Rin){
+function happyHolidaysTo (name) {
   return "Happy holidays, ${name}!"
 }
 
-function happyCustomHolidayTo (Independence,you) {
-  console.log ('Happy ${holiday}, ${name}');
-  return 'Happy Independence day, you!'
+function happyCustomHolidayTo (holiday, name) {
+  return "Happy ${holiday}, ${name}!"
+}
+
+function holidayCountdown (holiday, days) {
+  return "It's 20 days until Mother's Day!"
 }
