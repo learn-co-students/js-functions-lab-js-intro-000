@@ -1,4 +1,11 @@
 /*global describe, it*/
+const happyHolidays = () => "Happy holidays!"
+
+const happyHolidaysTo = name => `Happy holidays, ${name}!`
+
+const happyCustomHolidayTo = (holiday, name) => "Happy " + holiday + ", " + name + "!"
+
+const holidayCountdown = (holiday, days) => "It's " + days + " days until " + holiday + "!"
 
 describe('functions', () => {
   describe('happyHolidays', () => {
